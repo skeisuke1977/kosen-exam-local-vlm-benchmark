@@ -1,0 +1,212 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2025/02/13_2025_sugaku_mondai.pdf",
+  "sha256": "ac42bb1ad95cdfe7c461c33400e3e17f9bfa655ec64cad3c036c0d7e2f68b941"
+ },
+ "plan_version": "1",
+ "year": 2025,
+ "subject": "math",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions are separate requests; subquestions sharing conditions, notes, passages or figures stay together. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  2,
+  4,
+  8,
+  11
+ ],
+ "common_instructions": {
+  "pdf_page_index": 0,
+  "crop": [
+   180,
+   1400,
+   1480,
+   2180
+  ]
+ },
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1,
+     "crop": [
+      180,
+      205,
+      1480,
+      435
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1,
+     "crop": [
+      180,
+      620,
+      1480,
+      765
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1,
+     "crop": [
+      180,
+      985,
+      1480,
+      1075
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1,
+     "crop": [
+      180,
+      1310,
+      1480,
+      2045
+     ]
+    }
+   ],
+   "grouping_basis": "Condition and figure form one subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      180,
+      215,
+      1480,
+      455
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      180,
+      660,
+      1480,
+      955
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    7
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      180,
+      1150,
+      1480,
+      1240
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    8
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      180,
+      1435,
+      1480,
+      2060
+     ]
+    }
+   ],
+   "grouping_basis": "Condition and figure form one subquestion."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 5
+    },
+    {
+     "pdf_page_index": 6
+    }
+   ],
+   "grouping_basis": "All subquestions use the circle arrangement and figures defined at the start."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 7
+    }
+   ],
+   "grouping_basis": "All subquestions use the moving points defined at the start."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10
+    }
+   ],
+   "grouping_basis": "All subquestions use the semicircle figure defined at the start."
+  }
+ ],
+ "release_corrections": [
+  "pdf page index 6 was listed as excluded by mistake; it holds 大問2 (3) and figure 3 and was sent as part of the 大問2 unit."
+ ]
+}

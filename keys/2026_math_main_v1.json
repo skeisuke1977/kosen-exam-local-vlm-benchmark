@@ -1,0 +1,367 @@
+{
+ "exam": "2026_math_main",
+ "key_version": "1",
+ "rule": "Each group scores only when every label in it is correct (official: 全部正解の場合のみ点を与える).",
+ "source": {
+  "official_answer_pdf": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2026/02/03_2026_sugaku_seikai.pdf",
+  "sha256": "62f9aabe6a0bd428d05cff1c3259f5f7fb164013ac1568dd4097a79b366dd8b3",
+  "transcription": "公式の正解PDFから転記し、2026-10-05に人の目で照合した。"
+ },
+ "groups": [
+  {
+   "question": 1,
+   "subquestion": 1,
+   "labels": [
+    "ア"
+   ],
+   "answer": [
+    "9"
+   ],
+   "points": 5
+  },
+  {
+   "question": 1,
+   "subquestion": 2,
+   "labels": [
+    "イ",
+    "ウ"
+   ],
+   "answer": [
+    "-",
+    "2"
+   ],
+   "points": 2
+  },
+  {
+   "question": 1,
+   "subquestion": 2,
+   "labels": [
+    "エ"
+   ],
+   "answer": [
+    "3"
+   ],
+   "points": 3
+  },
+  {
+   "question": 1,
+   "subquestion": 3,
+   "labels": [
+    "オ",
+    "カ"
+   ],
+   "answer": [
+    "-",
+    "3"
+   ],
+   "points": 5
+  },
+  {
+   "question": 1,
+   "subquestion": 4,
+   "labels": [
+    "キ"
+   ],
+   "answer": [
+    "c"
+   ],
+   "points": 5
+  },
+  {
+   "question": 1,
+   "subquestion": 5,
+   "labels": [
+    "ク",
+    "ケ"
+   ],
+   "answer": [
+    "2",
+    "5"
+   ],
+   "points": 5
+  },
+  {
+   "question": 1,
+   "subquestion": 6,
+   "labels": [
+    "コ"
+   ],
+   "answer": [
+    "h"
+   ],
+   "points": 5
+  },
+  {
+   "question": 1,
+   "subquestion": 7,
+   "labels": [
+    "サ",
+    "シ"
+   ],
+   "answer": [
+    "8",
+    "0"
+   ],
+   "points": 2
+  },
+  {
+   "question": 1,
+   "subquestion": 7,
+   "labels": [
+    "ス",
+    "セ"
+   ],
+   "answer": [
+    "3",
+    "0"
+   ],
+   "points": 3
+  },
+  {
+   "question": 1,
+   "subquestion": 8,
+   "labels": [
+    "ソ",
+    "タ"
+   ],
+   "answer": [
+    "6",
+    "2"
+   ],
+   "points": 2
+  },
+  {
+   "question": 1,
+   "subquestion": 8,
+   "labels": [
+    "チ",
+    "ツ"
+   ],
+   "answer": [
+    "2",
+    "3"
+   ],
+   "points": 3
+  },
+  {
+   "question": 2,
+   "subquestion": 1,
+   "labels": [
+    "ア",
+    "イ"
+   ],
+   "answer": [
+    "1",
+    "3"
+   ],
+   "points": 3
+  },
+  {
+   "question": 2,
+   "subquestion": 1,
+   "labels": [
+    "ウ",
+    "エ"
+   ],
+   "answer": [
+    "2",
+    "3"
+   ],
+   "points": 3
+  },
+  {
+   "question": 2,
+   "subquestion": 2,
+   "labels": [
+    "オ",
+    "カ",
+    "キ"
+   ],
+   "answer": [
+    "3",
+    "2",
+    "4"
+   ],
+   "points": 4
+  },
+  {
+   "question": 2,
+   "subquestion": 3,
+   "labels": [
+    "ク",
+    "ケ"
+   ],
+   "answer": [
+    "5",
+    "8"
+   ],
+   "points": 3
+  },
+  {
+   "question": 2,
+   "subquestion": 4,
+   "labels": [
+    "コ",
+    "サ"
+   ],
+   "answer": [
+    "3",
+    "7"
+   ],
+   "points": 3
+  },
+  {
+   "question": 2,
+   "subquestion": 5,
+   "labels": [
+    "シ",
+    "ス",
+    "セ"
+   ],
+   "answer": [
+    "1",
+    "9",
+    "8"
+   ],
+   "points": 4
+  },
+  {
+   "question": 3,
+   "subquestion": 1,
+   "labels": [
+    "ア",
+    "イ",
+    "ウ"
+   ],
+   "answer": [
+    "1",
+    "5",
+    "0"
+   ],
+   "points": 4
+  },
+  {
+   "question": 3,
+   "subquestion": 2,
+   "labels": [
+    "エ",
+    "オ"
+   ],
+   "answer": [
+    "1",
+    "6"
+   ],
+   "points": 4
+  },
+  {
+   "question": 3,
+   "subquestion": 3,
+   "labels": [
+    "カ",
+    "キ"
+   ],
+   "answer": [
+    "1",
+    "5"
+   ],
+   "points": 4
+  },
+  {
+   "question": 3,
+   "subquestion": 3,
+   "labels": [
+    "ク",
+    "ケ"
+   ],
+   "answer": [
+    "8",
+    "4"
+   ],
+   "points": 4
+  },
+  {
+   "question": 3,
+   "subquestion": 4,
+   "labels": [
+    "コ",
+    "サ",
+    "シ"
+   ],
+   "answer": [
+    "1",
+    "4",
+    "4"
+   ],
+   "points": 4
+  },
+  {
+   "question": 4,
+   "subquestion": 1,
+   "labels": [
+    "ア"
+   ],
+   "answer": [
+    "d"
+   ],
+   "points": 4
+  },
+  {
+   "question": 4,
+   "subquestion": 2,
+   "labels": [
+    "イ",
+    "ウ"
+   ],
+   "answer": [
+    "3",
+    "3"
+   ],
+   "points": 4
+  },
+  {
+   "question": 4,
+   "subquestion": 3,
+   "labels": [
+    "エ"
+   ],
+   "answer": [
+    "4"
+   ],
+   "points": 4
+  },
+  {
+   "question": 4,
+   "subquestion": 4,
+   "labels": [
+    "オ",
+    "カ",
+    "キ",
+    "ク"
+   ],
+   "answer": [
+    "1",
+    "9",
+    "2",
+    "3"
+   ],
+   "points": 4
+  },
+  {
+   "question": 4,
+   "subquestion": 5,
+   "labels": [
+    "ケ",
+    "コ",
+    "サ",
+    "シ"
+   ],
+   "answer": [
+    "1",
+    "1",
+    "9",
+    "6"
+   ],
+   "points": 4
+  }
+ ]
+}

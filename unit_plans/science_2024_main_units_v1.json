@@ -1,0 +1,526 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/06/04_2024_rika_mondai.pdf",
+  "sha256": "d83156e21a34ca2fb5effd442469d5ccabf8996652c612f04b546cae13e0dd19"
+ },
+ "plan_version": "1",
+ "year": 2024,
+ "subject": "science",
+ "exam_type": "main",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions (問) are separate requests; 問 sharing conditions, passages, experiments or figures stay together; the sub-items (1, 2, ...) inside one 問 are never split. This PDF has printer crop marks and a typesetting slug line at the top of each page (1859x2544 px renders), so every part is cropped to the text area x 250-1610, excluding the slug, crop marks and page numbers. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  1,
+  6,
+  10,
+  14,
+  23
+ ],
+ "common_instructions": {
+  "pdf_page_index": 0,
+  "crop": [
+   250,
+   780,
+   1610,
+   2165
+  ]
+ },
+ "corrections": [],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Most items: choose one katakana choice (ア-エ ... ア-ク) per 問 or numbered sub-item. Multi-answer items: '二つ選べ' (大問1 問2, 問6), '三つ選べ' (大問1 問5); one choice per blank/category 'それぞれ選べ' (大問2 問1 ①-③ from ア-キ, 大問2 問2 ①-③ from ア-キ without repeats, 大問2 問3 成分 ア-ウ and ヘモグロビン量 エ-オ, 大問3 問1 (i)-(iii) each ア or イ, 大問3 問2 ①-③ from separate lists ア-ウ/エ-オ/カ-キ, 大問4 問4 色/密度/リトマス紙 from ア-キ); 大問5 問1 asks ○ or × for each of (i)-(iii). Numeric answers use digit boxes labeled in katakana: '時速 ア.イ km' (大問1 問3), 'アイ.ウ %' (大問2 問4 1), 'アイ.ウ °' (大問3 問3 2), 'アイ %' (大問4 問2), 'アイウ kJ' (大問5 問2), ratio boxes 'ア:イ' and 'ア:イ:ウ' (大問5 問3 2-4). Cover instructions 9-11 explain digit boxes, rounding and one choice per answer field.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      250,
+      320,
+      1610,
+      1575
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; weather symbol figure 1 and table; includes the 大問1 header."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      250,
+      1600,
+      1610,
+      1840
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      250,
+      1865,
+      1610,
+      2060
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; digit boxes."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      250,
+      330,
+      1610,
+      2135
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figures 2-3 and tape choices."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      250,
+      330,
+      1610,
+      1030
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figure 4."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      250,
+      1070,
+      1610,
+      2110
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figure 5 and choices."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    7
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      250,
+      330,
+      1610,
+      1580
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; sub-items 1-2 share figure 6."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    8
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      250,
+      1600,
+      1610,
+      2215
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; table and choices."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 7,
+     "crop": [
+      250,
+      320,
+      1610,
+      1210
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion (digestion table); includes the 大問2 header."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 7,
+     "crop": [
+      250,
+      1235,
+      1610,
+      1740
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; own passage with blanks ①-③."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 8,
+     "crop": [
+      250,
+      330,
+      1610,
+      1082
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; test tube figure 1."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 8,
+     "crop": [
+      250,
+      1084,
+      1610,
+      1850
+     ]
+    },
+    {
+     "pdf_page_index": 9,
+     "crop": [
+      250,
+      330,
+      1610,
+      1210
+     ]
+    }
+   ],
+   "grouping_basis": "Sub-items 1-2 share the hemoglobin curves (figures 2-3); independent of 問1-3."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      250,
+      320,
+      1610,
+      690
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; includes the 大問3 header."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      250,
+      705,
+      1610,
+      2160
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; sunspot figure 1 and blanks ①-③."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 12,
+     "crop": [
+      250,
+      330,
+      1610,
+      2220
+     ]
+    },
+    {
+     "pdf_page_index": 13,
+     "crop": [
+      250,
+      330,
+      1610,
+      2200
+     ]
+    }
+   ],
+   "grouping_basis": "Sub-items 1-3 share figure 2 (axis tilt, points A and B); figures 3-4 build on it."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 15,
+     "crop": [
+      250,
+      320,
+      1610,
+      2110
+     ]
+    },
+    {
+     "pdf_page_index": 16,
+     "crop": [
+      250,
+      330,
+      1610,
+      2215
+     ]
+    }
+   ],
+   "grouping_basis": "All 問 use white solids A-E and experiments [I]-[III] (underlines a, b)."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 17,
+     "crop": [
+      250,
+      320,
+      1610,
+      900
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; includes the 大問5 header."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 17,
+     "crop": [
+      250,
+      960,
+      1610,
+      1165
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; digit boxes."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 17,
+     "crop": [
+      250,
+      1180,
+      1610,
+      2075
+     ]
+    },
+    {
+     "pdf_page_index": 18,
+     "crop": [
+      250,
+      330,
+      1610,
+      2120
+     ]
+    }
+   ],
+   "grouping_basis": "Sub-items 1-4 share the heating-wire circuit (figures 1-3)."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 19,
+     "crop": [
+      250,
+      320,
+      1610,
+      840
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; includes the 大問6 header."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 19,
+     "crop": [
+      250,
+      860,
+      1610,
+      1620
+     ]
+    },
+    {
+     "pdf_page_index": 20,
+     "crop": [
+      250,
+      330,
+      1610,
+      2215
+     ]
+    }
+   ],
+   "grouping_basis": "Sub-items 1-2 share the quoted JMA passage; graph choices continue onto the next page."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 21,
+     "crop": [
+      250,
+      330,
+      1610,
+      1215
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; carbon cycle figure 1."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 21,
+     "crop": [
+      250,
+      1235,
+      1610,
+      2055
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; transit figure 2."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 22,
+     "crop": [
+      250,
+      330,
+      1610,
+      680
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 22,
+     "crop": [
+      250,
+      700,
+      1610,
+      1500
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; bottle figure choices."
+  }
+ ]
+}

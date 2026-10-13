@@ -1,0 +1,121 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/06/c86033e7d033155fd6af12326b7de969.pdf",
+  "sha256": "4b859bee859660181a4788dfc35bcbdac46eb951dba3b3333aff934fd87c0eed"
+ },
+ "plan_version": "1",
+ "year": 2024,
+ "subject": "english",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions are separate requests; subquestions sharing conditions, passages, figures or dialogues stay together. English Q1-Q3 are sets of short independent items, but the Japanese task instruction at the top of each of these questions is required to answer every item (e.g. Q3 asks only for the 3rd and 5th words). Splitting per item would drop that instruction from the later items, so each of Q1-Q3 is sent as one unit. Reading passages/dialogues with their questions form one unit; the A and B parts of Q5 are split only when B does not refer to A. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  1,
+  12
+ ],
+ "common_instructions": null,
+ "corrections": [
+  {
+   "pdf_page_index": 0,
+   "crop": [
+    210,
+    330,
+    1445,
+    1455
+   ],
+   "questions": [
+    3
+   ],
+   "note": "問題訂正: 3ページ 大問3 5.の1行目 誤 'that out teacher' -> 正 'that our teacher'. Changes the problem text."
+  }
+ ],
+ "notices_excluded": [
+  {
+   "pdf_page_index": 0,
+   "reason": "Only the 報道機関等周知用 label box at the top was left out of the correction crop; the correction itself is attached to Q3."
+  },
+  {
+   "pdf_page_index": 1,
+   "reason": "Cover: 配点 table and generic mark-sheet instructions only."
+  },
+  {
+   "pdf_page_index": 12,
+   "reason": "Blank page (crop marks only)."
+  }
+ ],
+ "answer_format": "マーク式（HB鉛筆で解答用紙にマーク）。大問1：各組1.〜5.ごとに(A)(B)の組み合わせをア〜エから1つ。大問2：各会話1.〜5.ごとに（ ）に入る文をア〜エから1つ。大問3：各会話1.〜5.ごとに（ ）内の語句ア〜カを並べ替え、3番目と5番目にくるものの記号をそれぞれ答える（1問につき2つのマーク）。大問4：問1 本文の空所(1)〜(6)をそれぞれア〜エから1つ、問2 (1)(2)の意味の語を本文の下線部ア〜カから1つずつ。大問5：A 問1 Diagram 3の点線をア〜エから1つ、問2 (1)(2)をそれぞれア〜エから1つ。B 問1 蜜の場所をア〜エから1つ、問2 図をア〜エから1つ。大問6：問1〜問5 空所1〜5にそれぞれア〜ウから1つ、問6・問7 それぞれア〜ウから1つ。",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 2
+    }
+   ],
+   "grouping_basis": "Kept whole: items 1-5 are independent, but every item needs the shared instruction at the top (choose the (A)/(B) combination that makes each pair of sentences mean almost the same). Per-item split would lose that instruction."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 3
+    }
+   ],
+   "grouping_basis": "Kept whole: dialogues 1-5 are independent, but every item needs the shared instruction at the top (choose the best sentence for the blank). Per-item split would lose that instruction."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 4
+    }
+   ],
+   "grouping_basis": "Kept whole: dialogues 1-5 are independent, but every item needs the shared instruction at the top (reorder the words and answer only the 3rd and 5th positions). Per-item split would lose that instruction."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 5
+    }
+   ],
+   "grouping_basis": "One passage with notes; 問1 (blanks 1-6) and 問2 (underlined words ア-カ) both use it."
+  },
+  {
+   "question": 5,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6
+    },
+    {
+     "pdf_page_index": 7
+    },
+    {
+     "pdf_page_index": 8
+    },
+    {
+     "pdf_page_index": 9
+    }
+   ],
+   "grouping_basis": "Part B (Ken and Ms. Tanaka's waggle-dance experiment) relies on Part A's explanation of the waggle dance and its angle convention (Diagrams 1-4), so A and B stay together."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 10
+    },
+    {
+     "pdf_page_index": 11
+    }
+   ],
+   "grouping_basis": "Four book reviews A-D share blanks 1-5; 問6 refers to C, 問7 asks about all four reviews."
+  }
+ ]
+}

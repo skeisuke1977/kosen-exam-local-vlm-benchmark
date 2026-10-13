@@ -1,0 +1,272 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2025/02/12_2025_syakai_mondai.pdf",
+  "sha256": "a5304b4fd78c1c2a24bb66f3be193e0137ad4f428af388477994b9187d15fe50"
+ },
+ "plan_version": "1",
+ "year": 2025,
+ "subject": "social",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: subquestions that use a shared map, table, figure, conversation or document stay in one unit; subquestions that use none of the shared material are separate units. When unsure (or when a page layout would force another subquestion into the crop), keep together. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  16
+ ],
+ "common_instructions": {
+  "pdf_page_index": 1,
+  "crop": [
+   150,
+   1385,
+   1505,
+   1735
+  ]
+ },
+ "corrections": [
+  {
+   "pdf_page_index": 0,
+   "crop": [
+    200,
+    700,
+    1460,
+    1460
+   ],
+   "questions": [
+    8
+   ],
+   "note": "Official problem correction (PDF page 1): page 13, question 8, note under the graph: a full stop is inserted between the 再エネ等 and LNG definitions. The body page in this PDF is uncorrected."
+  }
+ ],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Each 問 answers one choice: ア〜エ, ア〜カ or ア〜ク (combination tables, orderings). No 二つ選べ question. Common instruction item 8 included.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1,
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2
+    },
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      150,
+      200,
+      1505,
+      1240
+     ]
+    }
+   ],
+   "grouping_basis": "問1 uses the 表; 問2 refers to the same 表 (Morocco) and its own climate graphs."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      150,
+      1250,
+      1505,
+      1690
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: monoculture statements, no material."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      150,
+      200,
+      1505,
+      1135
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only 表1 and 表2."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      150,
+      1140,
+      1505,
+      2130
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only 表3."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      150,
+      200,
+      1505,
+      965
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only 表4."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      150,
+      970,
+      1505,
+      2175
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own maps."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6
+    }
+   ],
+   "grouping_basis": "Shared lead conditions for 図1 and 図2 (no land drawn); figures side by side."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 7
+    }
+   ],
+   "grouping_basis": "Both subquestions use the shared 系図."
+  },
+  {
+   "question": 5,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 8
+    },
+    {
+     "pdf_page_index": 9
+    }
+   ],
+   "grouping_basis": "All subquestions use 史料1-3."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 10
+    },
+    {
+     "pdf_page_index": 11
+    }
+   ],
+   "grouping_basis": "All subquestions refer to the shared cards A-G."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 13,
+     "crop": [
+      150,
+      200,
+      1505,
+      795
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: Constitution pacifism statements, no 資料."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    2,
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 12
+    },
+    {
+     "pdf_page_index": 13,
+     "crop": [
+      150,
+      800,
+      1505,
+      1800
+     ]
+    }
+   ],
+   "grouping_basis": "問2 uses 資料1-3; 問3 uses the underline in 資料1."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 13,
+     "crop": [
+      150,
+      1805,
+      1505,
+      2165
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: human-security statements, no 資料."
+  },
+  {
+   "question": 8,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 14
+    },
+    {
+     "pdf_page_index": 15
+    }
+   ],
+   "grouping_basis": "All subquestions use the shared グラフ and 発表文 (correction applies)."
+  }
+ ]
+}

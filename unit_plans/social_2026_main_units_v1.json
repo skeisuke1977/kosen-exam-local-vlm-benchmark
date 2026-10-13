@@ -1,0 +1,179 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2026/02/02_2026_syakai_mondai2.pdf",
+  "sha256": "d4dd26752fbbaef71f8b6179aaf66eee67b942dd60de618af3cb9604283a5c95"
+ },
+ "plan_version": "1",
+ "year": 2026,
+ "subject": "social",
+ "exam_type": "main",
+ "dpi": 200,
+ "grouping_policy": "Rule: subquestions that use a shared map, table, figure, conversation or document stay in one unit; subquestions that use none of the shared material are separate units. When unsure (or when a page layout would force another subquestion into the crop), keep together. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  0,
+  15
+ ],
+ "common_instructions": null,
+ "corrections": [],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Each 問 answers one choice: ア〜エ or ア〜カ (combination tables, orderings; q3 問1 is a single choice among combinations). No 二つ選べ question; the cover instructions have no item 8, so common_instructions is null.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 1
+    },
+    {
+     "pdf_page_index": 2
+    }
+   ],
+   "grouping_basis": "All subquestions refer to 図1 (A-D, P-S)."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 3
+    },
+    {
+     "pdf_page_index": 4
+    }
+   ],
+   "grouping_basis": "All subquestions refer to prefectures A-D / ports P-S on the shared 図."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 5
+    }
+   ],
+   "grouping_basis": "Both subquestions use 表1-3."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6
+    }
+   ],
+   "grouping_basis": "Both subquestions use the shared 地図."
+  },
+  {
+   "question": 5,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 7
+    },
+    {
+     "pdf_page_index": 8
+    }
+   ],
+   "grouping_basis": "All subquestions refer to underlines in the shared conversation."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10
+    }
+   ],
+   "grouping_basis": "All subquestions refer to underlines in the shared passage."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      150,
+      200,
+      1505,
+      890
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: court-system statements."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      150,
+      900,
+      1505,
+      2180
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own 表 and P-S statements."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 12,
+     "crop": [
+      150,
+      200,
+      1505,
+      1020
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own statements."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 12,
+     "crop": [
+      150,
+      1030,
+      1505,
+      2180
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own 新聞記事の抜粋."
+  },
+  {
+   "question": 8,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 13
+    },
+    {
+     "pdf_page_index": 14
+    }
+   ],
+   "grouping_basis": "All subquestions use the shared 説明文 and 図."
+  }
+ ]
+}

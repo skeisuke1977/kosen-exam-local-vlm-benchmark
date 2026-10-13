@@ -1,0 +1,346 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2025/02/14_2025_rika_mondai.pdf",
+  "sha256": "5f1ec35121bc6dbdb43c0cc634578c55558ce8332041c5e618eb6b0afbe5d3d2"
+ },
+ "plan_version": "1",
+ "year": 2025,
+ "subject": "science",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions (問) are separate requests; 問 sharing conditions, passages, experiments or figures stay together; the sub-items (1, 2, ...) inside one 問 are never split. Pages used whole when only one unit is on them. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  20,
+  23
+ ],
+ "common_instructions": {
+  "pdf_page_index": 0,
+  "crop": [
+   180,
+   700,
+   1490,
+   2125
+  ]
+ },
+ "corrections": [],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Most items: choose one katakana choice (ア-ウ ... ア-ケ) per 問; combination tables for multi-blank items (大問1 問6, 大問2 問3, 大問3 問2, 大問4 問4/問8, 大問5 問4). Some items ask for one choice per blank or per case 'それぞれ選べ' with reusable choices: 大問1 問4 (①② from ア-ウ), 大問2 問1 (①-③ from ア-ケ), 大問2 問5 (two periods from ア-エ), 大問4 問7 (solutions 1-3 from ア-ウ). Numeric answers use digit boxes labeled in katakana: 'アイ g' (大問1 問7). Cover instructions 9-11 explain digit boxes, rounding and one choice per answer field.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figure 1 (only item on the page, with the 大問1 header)."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figure 2 and diagram choices."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3
+    }
+   ],
+   "grouping_basis": "Independent subquestion; four slope figures."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4
+    }
+   ],
+   "grouping_basis": "Independent subquestion; experiments 1-2 and figures 3-4 shared by both blanks."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      180,
+      210,
+      1480,
+      920
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      180,
+      980,
+      1480,
+      1740
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; passage blanks and combination table."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    7
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 6,
+     "crop": [
+      180,
+      210,
+      1480,
+      480
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; digit box."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    8
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 6,
+     "crop": [
+      180,
+      540,
+      1480,
+      1580
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figure 5 and choices."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 7,
+     "crop": [
+      180,
+      1530,
+      1480,
+      2040
+     ]
+    }
+   ],
+   "grouping_basis": "Fertilization passage with blanks ①-③; does not use 【実験1】 or its figures."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    2,
+    3,
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 7,
+     "crop": [
+      180,
+      200,
+      1480,
+      1470
+     ]
+    },
+    {
+     "pdf_page_index": 8
+    }
+   ],
+   "grouping_basis": "大問2 header, 【実験1】 procedure and figures 1-2 shared by 問2-4."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10
+    }
+   ],
+   "grouping_basis": "【実験2】 and figure 3 are used only by 問5."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 11
+    },
+    {
+     "pdf_page_index": 12
+    },
+    {
+     "pdf_page_index": 13
+    }
+   ],
+   "grouping_basis": "All 問 use the optical bench of figure 1 and build on the previous 問's setup (figures 2-3)."
+  },
+  {
+   "question": 4,
+   "subquestions": [
+    1,
+    2,
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 14
+    }
+   ],
+   "grouping_basis": "Part [I] (Daniell-type cell, figure 1) shared by 問1-3; includes the 大問4 header."
+  },
+  {
+   "question": 4,
+   "subquestions": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 15
+    },
+    {
+     "pdf_page_index": 16
+    }
+   ],
+   "grouping_basis": "Part [II] (electrolysis apparatus figure 2 and table 1) shared by 問4-8; independent of part [I]."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 17,
+     "crop": [
+      180,
+      200,
+      1480,
+      860
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; includes the 大問5 header."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 17,
+     "crop": [
+      180,
+      920,
+      1480,
+      1420
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 17,
+     "crop": [
+      180,
+      1480,
+      1480,
+      2140
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; orbit figure."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 18
+    }
+   ],
+   "grouping_basis": "Independent subquestion; Eratosthenes passage, figure 1 and combination table."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 19
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figures 2-3 and graph choices."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 21
+    },
+    {
+     "pdf_page_index": 22
+    }
+   ],
+   "grouping_basis": "All 問 use the spring force-extension graph (figure 1); 問2-3 use the same springs in figure 2."
+  }
+ ]
+}

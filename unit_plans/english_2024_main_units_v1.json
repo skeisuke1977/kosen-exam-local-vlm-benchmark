@@ -1,0 +1,116 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/06/05_2024_eigo_mondai.pdf",
+  "sha256": "650c9afbb081143920725cf8aa39b7e28da85fc5468196acef2f082569a2fb04"
+ },
+ "plan_version": "1",
+ "year": 2024,
+ "subject": "english",
+ "exam_type": "main",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions are separate requests; subquestions sharing conditions, passages, figures or dialogues stay together. English Q1-Q3 are sets of short independent items, but the Japanese task instruction at the top of each of these questions is required to answer every item (e.g. Q3 asks only for the 3rd and 5th words). Splitting per item would drop that instruction from the later items, so each of Q1-Q3 is sent as one unit. Reading passages/dialogues with their questions form one unit; the A and B parts of Q5 are split only when B does not refer to A. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  0,
+  11
+ ],
+ "common_instructions": null,
+ "corrections": [],
+ "notices_excluded": [
+  {
+   "pdf_page_index": 0,
+   "reason": "Cover: 配点 table and generic mark-sheet instructions only."
+  },
+  {
+   "pdf_page_index": 11,
+   "reason": "Blank page (crop marks only)."
+  }
+ ],
+ "answer_format": "マーク式（HB鉛筆で解答用紙にマーク）。大問1：各組1.〜5.ごとに(A)(B)の組み合わせをア〜エから1つ。大問2：各会話1.〜5.ごとに（ ）に入る文をア〜エから1つ。大問3：各会話1.〜5.ごとに（ ）内の語句ア〜カを並べ替え、3番目と5番目にくるものの記号をそれぞれ答える（1問につき2つのマーク）。大問4：問1 本文の空所(1)〜(6)をそれぞれア〜エから1つ、問2 (1)(2)の意味の語を本文の下線部ア〜カから1つずつ。大問5：A 問1 Table 1の(A)(B)(C)の組み合わせをア〜エから1つ、問2 (1)(2)をそれぞれア〜エから1つ。B 問1 折れ線グラフをア〜エから1つ、問2 日付をア〜エから1つ。大問6：問1〜問4 空所1〜4にそれぞれア〜ウから1つ、問5〜問7 それぞれア〜ウから1つ。",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 1
+    }
+   ],
+   "grouping_basis": "Kept whole: items 1-5 are independent, but every item needs the shared instruction at the top (choose the (A)/(B) combination that makes each pair of sentences mean almost the same). Per-item split would lose that instruction."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 2
+    }
+   ],
+   "grouping_basis": "Kept whole: dialogues 1-5 are independent, but every item needs the shared instruction at the top (choose the best sentence for the blank). Per-item split would lose that instruction."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 3
+    }
+   ],
+   "grouping_basis": "Kept whole: dialogues 1-5 are independent, but every item needs the shared instruction at the top (reorder the words and answer only the 3rd and 5th positions). Per-item split would lose that instruction."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 4
+    }
+   ],
+   "grouping_basis": "One passage with notes; 問1 (blanks 1-6) and 問2 (underlined words ア-カ) both use it."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    1,
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5
+    },
+    {
+     "pdf_page_index": 6
+    }
+   ],
+   "grouping_basis": "Part A (OECD annual working hours, Table 1): passage, table and A-問1/A-問2 share one text. Subquestion numbers here: 1 = A-問1, 2 = A-問2. Includes the Q5 header."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    3,
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 7
+    },
+    {
+     "pdf_page_index": 8
+    }
+   ],
+   "grouping_basis": "Part B (John and Kate dialogue on paid-leave rates; B-問1 graphs ア-エ, B-問2 deadline) is independent of Part A (no reference to A's text or data); B's own lead, dialogue and B-問1/B-問2 form one unit. Subquestion numbers here: 3 = B-問1, 4 = B-問2. The Q5 header (read A and B; do calculations in the margin) is on A's page and is not needed for B."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10
+    }
+   ],
+   "grouping_basis": "Four statements A-D share blanks 1-4; 問5-問7 ask about all four speakers (問7 also refers to 問6's contest description)."
+  }
+ ]
+}

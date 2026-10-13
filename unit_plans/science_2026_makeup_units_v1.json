@@ -1,0 +1,299 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2026/02/14_2026_rika_mondai.pdf",
+  "sha256": "96ab4821158f07bf8b0668fc78ca34701dd02ec2e2c148b04bd658a6ea9ef14d"
+ },
+ "plan_version": "1",
+ "year": 2026,
+ "subject": "science",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions (問) are separate requests; 問 sharing conditions, passages, experiments or figures stay together; the sub-items (1, 2, ...) inside one 問 are never split. Pages used whole when only one unit is on them. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  0,
+  7,
+  17,
+  22,
+  23,
+  24
+ ],
+ "common_instructions": {
+  "pdf_page_index": 1,
+  "crop": [
+   180,
+   700,
+   1490,
+   2125
+  ]
+ },
+ "corrections": [
+  {
+   "pdf_page_index": 0,
+   "crop": [
+    200,
+    320,
+    1460,
+    1460
+   ],
+   "questions": [
+    2
+   ],
+   "note": "Official problem correction (問題訂正): page 7, 大問2 問2 choice キ wording '水溶液は塩基性を示す' corrected to '水溶液はアルカリ性を示す'. Attached to every 大問2 unit because the runner attaches corrections by 大問 number; it only concerns 問2 (the 大問2 unit starting at 問1)."
+  }
+ ],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Most items: choose one katakana choice (ア-ウ ... ア-ケ) per 問 or per numbered sub-item; combination tables for multi-blank items (e.g. 大問2 問3 1 ①-③, 大問3 問1 2, 大問5 問1 1). Some items ask to choose two ('二つ選べ'): 大問2 問2, 大問2 問6 2, 大問4 問5 2, and 大問3 問2 2 (two individual numbers from 6-12 in figure 3). Numeric answers use digit boxes labeled in katakana: 'ア.イ N' (大問1 問8), 'ア.イ g/cm3' (大問2 問4 2), 'アイ %' (大問2 問6 1), 'アイウ m/s' (大問4 問3), '入射角 アイ °' and '屈折角 ウエ °' (大問4 問5 1). Cover instructions 9-11 explain digit boxes, rounding and one choice per answer field.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      180,
+      200,
+      1480,
+      940
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; classification figure 1; includes the 大問1 header."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      180,
+      990,
+      1480,
+      1740
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3
+    }
+   ],
+   "grouping_basis": "Independent subquestion; sub-items 1-2 share the pendulum figure 2."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figure 3 and six field-pattern choices."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      180,
+      210,
+      1480,
+      830
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; passage with underlines a-d."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      180,
+      880,
+      1480,
+      2178
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; sub-items 1-3 share experiments 1-2."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    7
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 6,
+     "crop": [
+      180,
+      210,
+      1480,
+      540
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    8
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 6,
+     "crop": [
+      180,
+      595,
+      1480,
+      1770
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figures 4-5 and digit boxes."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 8
+    },
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10,
+     "crop": [
+      180,
+      210,
+      1480,
+      1040
+     ]
+    }
+   ],
+   "grouping_basis": "大問2 header and 【実験1】 (polished iron nails used in various experiments) are the shared condition of 問1-4."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    5,
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 10,
+     "crop": [
+      180,
+      1090,
+      1480,
+      2178
+     ]
+    },
+    {
+     "pdf_page_index": 11
+    }
+   ],
+   "grouping_basis": "【実験2】 (ethanol solutions, ice, figure 5) is the shared condition of 問5-6; does not use 【実験1】 data."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 12
+    }
+   ],
+   "grouping_basis": "Figure 1 (nutrient pathways) used only by 問1 sub-items 1-2; includes the 大問3 header."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 13
+    }
+   ],
+   "grouping_basis": "Pedigree figures 2-3 used by 問2 sub-items 1-3; independent of 問1."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 14
+    },
+    {
+     "pdf_page_index": 15
+    },
+    {
+     "pdf_page_index": 16
+    }
+   ],
+   "grouping_basis": "大問4 header defines the shared microphone/computer setup and graph axes used by experiments 1-3; 問4 builds on the echo measurement of 問3."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 18
+    },
+    {
+     "pdf_page_index": 19
+    },
+    {
+     "pdf_page_index": 20
+    }
+   ],
+   "grouping_basis": "Venus sketches figure 1 shared by 問1 sub-items 1-4 (figures 2-3 refer back to figure 1); includes the 大問5 header."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 21
+    }
+   ],
+   "grouping_basis": "Independent subquestion on Mars with its own figure 4."
+  }
+ ]
+}

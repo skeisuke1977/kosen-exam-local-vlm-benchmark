@@ -1,0 +1,141 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2026/02/01_2026_kokugo_mondai2.pdf",
+  "sha256": "f8622791361e185db24c0b9f7f71c229caf9d9ddf0e11978a528da6a7d2c3bd5"
+ },
+ "plan_version": "1",
+ "year": 2026,
+ "subject": "japanese",
+ "exam_type": "main",
+ "dpi": 200,
+ "grouping_policy": "Rule: subquestions sharing a passage stay together; independent subquestions are separate. In this booklet every 問 of a 大問 refers to that 大問's passage(s) (kanji, grammar and vocabulary items cite marked words in the passage), so each 大問 is one unit. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  0,
+  23
+ ],
+ "common_instructions": null,
+ "corrections": [],
+ "notices_excluded": [
+  "Index 0: cover with mark-sheet handling notes and the score allocation per question; not model input (no answer-format information beyond marking). Index 23: blank."
+ ],
+ "answer_format": "Mark sheet only. Most 問 ask for one choice from ア-エ (some from ア-オ); a few use the lowercase letters (a-d) or circled numbers printed in the booklet as choice labels. A 問 with labelled parts ((a)(b), ①-④, a-d, 【I】【II】) takes one choice per part. Some blank-filling 問 state that the same symbol may not be used twice. No numeric or written answers.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 1
+    },
+    {
+     "pdf_page_index": 2
+    },
+    {
+     "pdf_page_index": 3
+    },
+    {
+     "pdf_page_index": 4
+    },
+    {
+     "pdf_page_index": 5
+    },
+    {
+     "pdf_page_index": 6,
+     "crop": [
+      880,
+      0,
+      1654,
+      2339
+     ]
+    }
+   ],
+   "grouping_basis": "Vertical writing (tategaki): within each page the columns are read right-to-left; pages run in normal ascending order (booklet page n = pdf page index n). Q1 texts 【I】 and 【II】, notes and 問1-問7; all questions reference the texts. The right part of pdf index 6 holds the rest of 問6 and 問7, split before the boxed 2."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6,
+     "crop": [
+      0,
+      0,
+      880,
+      2339
+     ]
+    },
+    {
+     "pdf_page_index": 7
+    },
+    {
+     "pdf_page_index": 8
+    },
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10
+    },
+    {
+     "pdf_page_index": 11
+    },
+    {
+     "pdf_page_index": 12
+    },
+    {
+     "pdf_page_index": 13,
+     "crop": [
+      918,
+      0,
+      1654,
+      2339
+     ]
+    }
+   ],
+   "grouping_basis": "Vertical writing (tategaki): within each page the columns are read right-to-left; pages run in normal ascending order (booklet page n = pdf page index n). Q2 passage, notes and 問1-問7; all questions reference the passage. Starts at the boxed 2 in the left part of pdf index 6; the right part of pdf index 13 holds 問7, split before the boxed 3."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 13,
+     "crop": [
+      0,
+      0,
+      918,
+      2339
+     ]
+    },
+    {
+     "pdf_page_index": 14
+    },
+    {
+     "pdf_page_index": 15
+    },
+    {
+     "pdf_page_index": 16
+    },
+    {
+     "pdf_page_index": 17
+    },
+    {
+     "pdf_page_index": 18
+    },
+    {
+     "pdf_page_index": 19
+    },
+    {
+     "pdf_page_index": 20
+    },
+    {
+     "pdf_page_index": 21
+    },
+    {
+     "pdf_page_index": 22
+    }
+   ],
+   "grouping_basis": "Vertical writing (tategaki): within each page the columns are read right-to-left; pages run in normal ascending order (booklet page n = pdf page index n). Q3 story (lead-in, passage, notes) and 問1-問6 incl. the 生徒 discussion of 問6 with choice sets 【I】【II】; all questions use the passage. Starts at the boxed 3 in the left part of pdf index 13."
+  }
+ ]
+}

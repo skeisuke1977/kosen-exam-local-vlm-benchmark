@@ -1,0 +1,209 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/06/99bb2cdaccaa2c1a936dbfe88eb17d68.pdf",
+  "sha256": "33165fdb37662404b2dc14016f16cc6e1c9cec8c82ec66e7bd36066a03863720"
+ },
+ "plan_version": "1",
+ "year": 2024,
+ "subject": "social",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: subquestions that use a shared map, table, figure, conversation or document stay in one unit; subquestions that use none of the shared material are separate units. When unsure (or when a page layout would force another subquestion into the crop), keep together. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  15
+ ],
+ "common_instructions": {
+  "pdf_page_index": 0,
+  "crop": [
+   250,
+   1490,
+   1610,
+   1840
+  ]
+ },
+ "corrections": [],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Each 問 answers one choice: ア〜エ, ア〜カ, ア〜キ, ア〜ク or ア〜ケ (combination tables, orderings). No 二つ選べ question. Common instruction item 8 included as common_instructions.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1,
+    2,
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1
+    },
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      250,
+      320,
+      1610,
+      1480
+     ]
+    }
+   ],
+   "grouping_basis": "問1-3 use the shared 表, 図1 and 図2 about the four countries."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      250,
+      1485,
+      1610,
+      2020
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: time-zone question uses none of the shared 表/図."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 3
+    },
+    {
+     "pdf_page_index": 4
+    }
+   ],
+   "grouping_basis": "All subquestions refer to prefectures A-D on the shared 図1."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      250,
+      320,
+      1610,
+      1510
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only 表1 and its 説明文."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      250,
+      1515,
+      1610,
+      2060
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only 表2."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6
+    }
+   ],
+   "grouping_basis": "Both subquestions use the shared 略年表 (periods I-III)."
+  },
+  {
+   "question": 5,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 7
+    },
+    {
+     "pdf_page_index": 8
+    }
+   ],
+   "grouping_basis": "All subquestions use passages A-C."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10
+    }
+   ],
+   "grouping_basis": "All subquestions refer to blanks/underlines in the shared conversation."
+  },
+  {
+   "question": 7,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 11
+    },
+    {
+     "pdf_page_index": 12
+    }
+   ],
+   "grouping_basis": "All subquestions refer to underlines in the shared conversation."
+  },
+  {
+   "question": 8,
+   "subquestions": [
+    1,
+    2,
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 13
+    },
+    {
+     "pdf_page_index": 14,
+     "crop": [
+      250,
+      320,
+      1610,
+      1575
+     ]
+    }
+   ],
+   "grouping_basis": "問1-3 use the shared demand/supply graphs I-IV."
+  },
+  {
+   "question": 8,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 14,
+     "crop": [
+      250,
+      1580,
+      1610,
+      2210
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: consumer-rights 事例 uses none of the graphs."
+  }
+ ]
+}

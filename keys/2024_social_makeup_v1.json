@@ -1,0 +1,262 @@
+{
+ "exam": "2024_social_makeup",
+ "key_version": "1",
+ "scoring": "general",
+ "source": {
+  "official_answer_pdf": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/04/12_2024_syakai_seikai.pdf",
+  "sha256": "fc4c1ae85ead338e0622f2b9984b0faebdff207402ca63e1d668c429d19493e6",
+  "transcription": "公式の正解PDFから転記し、2026-10-09に人の目で照合した。"
+ },
+ "groups": [
+  {
+   "question": 1,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "エ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 1,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "ウ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 1,
+   "labels": [
+    "3"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 1,
+   "labels": [
+    "4"
+   ],
+   "answer": [
+    "エ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 2,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 2,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "カ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 2,
+   "labels": [
+    "3"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 3,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "カ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 3,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "オ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 4,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "ア"
+   ],
+   "points": 4
+  },
+  {
+   "question": 4,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 5,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 5,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "ウ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 5,
+   "labels": [
+    "3"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 6,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "ウ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 6,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "キ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 6,
+   "labels": [
+    "3"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 6,
+   "labels": [
+    "4"
+   ],
+   "answer": [
+    "ウ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 7,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "ア"
+   ],
+   "points": 4
+  },
+  {
+   "question": 7,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "エ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 7,
+   "labels": [
+    "3"
+   ],
+   "answer": [
+    "オ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 8,
+   "labels": [
+    "1"
+   ],
+   "answer": [
+    "エ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 8,
+   "labels": [
+    "2"
+   ],
+   "answer": [
+    "イ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 8,
+   "labels": [
+    "3"
+   ],
+   "answer": [
+    "ウ"
+   ],
+   "points": 4
+  },
+  {
+   "question": 8,
+   "labels": [
+    "4"
+   ],
+   "answer": [
+    "ア"
+   ],
+   "points": 4
+  }
+ ]
+}

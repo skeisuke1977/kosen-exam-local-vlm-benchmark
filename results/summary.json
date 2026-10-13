@@ -1,0 +1,305 @@
+{
+ "math|qwen/qwen3.5-9b": {
+  "trials": {
+   "1": 75.0,
+   "2": 73.2,
+   "3": 71.6
+  },
+  "mean": 73.26666666666667,
+  "minutes_per_exam": 29.450144444444444,
+  "status": {
+   "completed": 165,
+   "output_limit": 9
+  }
+ },
+ "math|google/gemma-4-31b": {
+  "trials": {
+   "1": 82.2,
+   "2": 78.4,
+   "3": 84.4
+  },
+  "mean": 81.66666666666667,
+  "minutes_per_exam": 30.087733333333333,
+  "status": {
+   "completed": 170,
+   "timeout": 4
+  }
+ },
+ "math|qwen/qwen3.8-27b": {
+  "trials": {
+   "1": 85.2,
+   "2": 90.0,
+   "3": 91.8
+  },
+  "mean": 89.0,
+  "minutes_per_exam": 13.268933333333333,
+  "status": {
+   "completed": 174
+  }
+ },
+ "math|openai/gpt-6.1-sol@cloud-reference": {
+  "trials": {
+   "1": 100.0
+  },
+  "mean": 100.0,
+  "minutes_per_exam": 1.0408666666666666,
+  "status": {
+   "completed": 58
+  }
+ },
+ "math|muse-glimmer-30b": {
+  "trials": {
+   "1": 89.8,
+   "2": 89.2,
+   "3": 93.4
+  },
+  "mean": 90.8,
+  "minutes_per_exam": 17.71518888888889,
+  "status": {
+   "completed": 174
+  }
+ },
+ "english|qwen/qwen3.5-9b": {
+  "trials": {
+   "1": 67.68354430379746,
+   "2": 77.16708860759493,
+   "3": 84.80253164556962
+  },
+  "mean": 76.55105485232068,
+  "minutes_per_exam": 12.774322222222223,
+  "status": {
+   "completed": 88,
+   "output_limit": 5
+  }
+ },
+ "english|openai/gpt-6.1-sol@cloud-reference": {
+  "trials": {
+   "1": 100.0
+  },
+  "mean": 100.0,
+  "minutes_per_exam": 0.4319333333333333,
+  "status": {
+   "completed": 31
+  }
+ },
+ "english|google/gemma-4-31b": {
+  "trials": {
+   "1": 91.28101265822785,
+   "2": 83.76202531645569,
+   "3": 91.28101265822785
+  },
+  "mean": 88.7746835443038,
+  "minutes_per_exam": 14.2393,
+  "status": {
+   "completed": 91,
+   "timeout": 2
+  }
+ },
+ "english|qwen/qwen3.8-27b": {
+  "trials": {
+   "1": 99.24050632911393,
+   "2": 98.4,
+   "3": 98.64050632911392
+  },
+  "mean": 98.76033755274261,
+  "minutes_per_exam": 7.260633333333333,
+  "status": {
+   "completed": 93
+  }
+ },
+ "english|muse-glimmer-30b": {
+  "trials": {
+   "1": 96.24050632911393,
+   "2": 98.8,
+   "3": 98.04050632911392
+  },
+  "mean": 97.69367088607595,
+  "minutes_per_exam": 7.4305666666666665,
+  "status": {
+   "completed": 93
+  }
+ },
+ "social|openai/gpt-6.1-sol@cloud-reference": {
+  "trials": {
+   "1": 100.0
+  },
+  "mean": 100.0,
+  "minutes_per_exam": 0.8874333333333333,
+  "status": {
+   "completed": 57
+  }
+ },
+ "social|qwen/qwen3.5-9b": {
+  "trials": {
+   "1": 45.6,
+   "2": 56.0,
+   "3": 49.6
+  },
+  "mean": 50.4,
+  "minutes_per_exam": 32.90217777777778,
+  "status": {
+   "completed": 145,
+   "output_limit": 26
+  }
+ },
+ "social|google/gemma-4-31b": {
+  "trials": {
+   "1": 72.0,
+   "2": 72.8,
+   "3": 73.6
+  },
+  "mean": 72.8,
+  "minutes_per_exam": 37.52475555555556,
+  "status": {
+   "completed": 161,
+   "timeout": 10
+  }
+ },
+ "social|qwen/qwen3.8-27b": {
+  "trials": {
+   "1": 88.0,
+   "2": 87.2,
+   "3": 85.6
+  },
+  "mean": 86.93333333333334,
+  "minutes_per_exam": 26.17831111111111,
+  "status": {
+   "completed": 171
+  }
+ },
+ "social|muse-glimmer-30b": {
+  "trials": {
+   "1": 90.4,
+   "2": 87.2,
+   "3": 89.6
+  },
+  "mean": 89.06666666666666,
+  "minutes_per_exam": 13.202277777777777,
+  "status": {
+   "completed": 170,
+   "empty_answer": 1
+  }
+ },
+ "japanese|openai/gpt-6.1-sol@cloud-reference": {
+  "trials": {
+   "1": 91.8
+  },
+  "mean": 91.8,
+  "minutes_per_exam": 0.6761333333333334,
+  "status": {
+   "completed": 15
+  }
+ },
+ "japanese|qwen/qwen3.5-9b": {
+  "trials": {
+   "1": 0.0
+  },
+  "mean": 0.0,
+  "minutes_per_exam": 28.872533333333333,
+  "status": {
+   "output_limit": 15
+  }
+ },
+ "japanese|google/gemma-4-31b": {
+  "trials": {
+   "1": 14.8,
+   "2": 12.8,
+   "3": 9.8
+  },
+  "mean": 12.466666666666667,
+  "minutes_per_exam": 40.99487777777778,
+  "status": {
+   "timeout": 14,
+   "completed": 31
+  }
+ },
+ "japanese|qwen/qwen3.8-27b": {
+  "trials": {
+   "1": 44.2,
+   "2": 42.8,
+   "3": 65.0
+  },
+  "mean": 50.666666666666664,
+  "minutes_per_exam": 40.58146666666667,
+  "status": {
+   "completed": 31,
+   "output_limit": 9,
+   "empty_answer": 5
+  }
+ },
+ "japanese|muse-glimmer-30b": {
+  "trials": {
+   "1": 60.8,
+   "2": 57.6,
+   "3": 62.4
+  },
+  "mean": 60.266666666666666,
+  "minutes_per_exam": 20.4172,
+  "status": {
+   "completed": 45
+  }
+ },
+ "science|openai/gpt-6.1-sol@cloud-reference": {
+  "trials": {
+   "1": 98.6
+  },
+  "mean": 98.6,
+  "minutes_per_exam": 1.4025333333333334,
+  "status": {
+   "completed": 99
+  }
+ },
+ "science|qwen/qwen3.8-27b": {
+  "trials": {
+   "1": 85.4639175257732,
+   "2": 89.29484536082474,
+   "3": 86.88247422680412
+  },
+  "mean": 87.21374570446736,
+  "minutes_per_exam": 39.2939,
+  "status": {
+   "completed": 293,
+   "empty_answer": 3,
+   "output_limit": 1
+  }
+ },
+ "science|muse-glimmer-30b": {
+  "trials": {
+   "1": 82.24536082474226,
+   "2": 83.85773195876288,
+   "3": 86.08865979381443
+  },
+  "mean": 84.06391752577319,
+  "minutes_per_exam": 20.8847,
+  "status": {
+   "completed": 297
+  }
+ },
+ "science|qwen/qwen3.5-9b": {
+  "trials": {
+   "1": 57.878350515463914,
+   "2": 50.12783505154639,
+   "3": 50.0659793814433
+  },
+  "mean": 52.69072164948454,
+  "minutes_per_exam": 43.14996666666667,
+  "status": {
+   "completed": 274,
+   "output_limit": 22,
+   "empty_answer": 1
+  }
+ },
+ "science|google/gemma-4-31b": {
+  "trials": {
+   "1": 61.54639175257732,
+   "2": 66.76494845360824,
+   "3": 72.00824742268041
+  },
+  "mean": 66.77319587628865,
+  "minutes_per_exam": 52.64908888888889,
+  "status": {
+   "completed": 284,
+   "timeout": 13
+  }
+ }
+}

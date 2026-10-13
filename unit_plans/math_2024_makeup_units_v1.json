@@ -1,0 +1,263 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/04/13_2024_sugaku_mondai.pdf",
+  "sha256": "7c7ea17c28984e252477575d2f7a13f6e2ded90f8a1b443d4845a2f920b42ba8"
+ },
+ "plan_version": "1",
+ "year": 2024,
+ "subject": "math",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions are separate requests; subquestions sharing conditions, notes, passages or figures stay together. Groups defined from the problem pages only, without answer-key content. Pages carry printer trim marks; full pages are cropped to the content area.",
+ "excluded_pdf_page_indices": [
+  2,
+  4,
+  6,
+  8,
+  13,
+  14,
+  15
+ ],
+ "common_instructions": {
+  "pdf_page_index": 0,
+  "crop": [
+   230,
+   1370,
+   1720,
+   2170
+  ]
+ },
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1,
+     "crop": [
+      230,
+      320,
+      1740,
+      560
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1,
+     "crop": [
+      230,
+      730,
+      1740,
+      860
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 1,
+     "crop": [
+      230,
+      1070,
+      1740,
+      1260
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      230,
+      335,
+      1740,
+      530
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      230,
+      722,
+      1740,
+      990
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      230,
+      1235,
+      1740,
+      1810
+     ]
+    }
+   ],
+   "grouping_basis": "Frequency table and question form one subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    7
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      230,
+      325,
+      1740,
+      855
+     ]
+    }
+   ],
+   "grouping_basis": "Condition and figure form one subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    8
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5,
+     "crop": [
+      230,
+      1020,
+      1740,
+      1805
+     ]
+    }
+   ],
+   "grouping_basis": "Condition and both cube figures form one subquestion."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 7,
+     "crop": [
+      230,
+      320,
+      1740,
+      810
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion with its choice box."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    2,
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 7,
+     "crop": [
+      230,
+      910,
+      1740,
+      1705
+     ]
+    }
+   ],
+   "grouping_basis": "(2) and (3) share the stated approximations for root 2 and root 5, which precede them."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 9,
+     "crop": [
+      200,
+      180,
+      1760,
+      2330
+     ]
+    },
+    {
+     "pdf_page_index": 10,
+     "crop": [
+      200,
+      180,
+      1760,
+      2330
+     ]
+    }
+   ],
+   "grouping_basis": "All subquestions use the solid figures defined at the start."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      200,
+      180,
+      1760,
+      2330
+     ]
+    },
+    {
+     "pdf_page_index": 12,
+     "crop": [
+      200,
+      180,
+      1760,
+      2330
+     ]
+    }
+   ],
+   "grouping_basis": "All subquestions use the taxi-fare rules and graphs defined at the start."
+  }
+ ]
+}

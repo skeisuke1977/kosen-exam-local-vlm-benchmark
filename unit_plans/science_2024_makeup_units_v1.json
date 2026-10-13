@@ -1,0 +1,377 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/04/14_2024_rika_mondai.pdf",
+  "sha256": "416d3d2ce2cf5e78d6ace0f8c05fdd52ab473ee63e9d7cdfe585190a116da764"
+ },
+ "plan_version": "1",
+ "year": 2024,
+ "subject": "science",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: independent subquestions (問) are separate requests; 問 sharing conditions, passages, experiments or figures stay together; the sub-items (1, 2, ...) inside one 問 are never split. This PDF has printer crop marks and a typesetting slug line at the top of each page (1859x2544 px renders), so every part is cropped to the text area x 250-1610, excluding the slug, crop marks and page numbers. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  1,
+  5,
+  19
+ ],
+ "common_instructions": {
+  "pdf_page_index": 0,
+  "crop": [
+   250,
+   780,
+   1610,
+   2165
+  ]
+ },
+ "corrections": [],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Most items: choose one katakana choice (ア-ウ ... ア-ク) per 問 or numbered sub-item. '二つ選べ': 大問1 問4, 問6, 大問4 問1, 大問5 問6. One choice per item 'それぞれ選べ': 大問3 問1 2 ((i)-(iii) from separate lists ア-エ/オ-カ/キ-コ), 大問4 問3 (花1, 花2; same symbol may be reused), 大問4 問4 ((i) ア-イ, (ii) ウ-オ), 大問6 問1 ((i)-(iii) each ア=直流 or イ=交流), 大問6 問3 (図4, 図5 from ア-エ). ○/× for each of (i)-(iii): 大問3 問2 1 and 3. Combination table 大問5 問1 (blanks (a), (b) and reaction name). Numeric answers use digit boxes labeled in katakana: 'ア.イウ g' (大問5 問4), 'アイ %' (大問6 問4 2). Cover instructions 9-11 explain digit boxes, rounding and one choice per answer field.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      250,
+      320,
+      1610,
+      900
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; figure 1; includes the 大問1 header."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 2,
+     "crop": [
+      250,
+      915,
+      1610,
+      2055
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion; sub-items 1-2 share figures 2-3."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      250,
+      330,
+      1610,
+      470
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      250,
+      490,
+      1610,
+      840
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    5
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      250,
+      860,
+      1610,
+      1370
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    6
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 3,
+     "crop": [
+      250,
+      1390,
+      1610,
+      1580
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    7
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      250,
+      330,
+      1610,
+      740
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 1,
+   "subquestions": [
+    8
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      250,
+      755,
+      1610,
+      1105
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    },
+    {
+     "pdf_page_index": 7,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    },
+    {
+     "pdf_page_index": 8,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    }
+   ],
+   "grouping_basis": "All 問 use the same coil and current direction (operations 1-3, figures 1-5)."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 9,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    }
+   ],
+   "grouping_basis": "2009 summer passage (blank A, underline) shared by 問1 sub-items 1-3; includes the 大問3 header."
+  },
+  {
+   "question": 3,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 10,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    }
+   ],
+   "grouping_basis": "Mt. Fuji hazard maps shared by 問2 sub-items 1-3; independent of 問1."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    },
+    {
+     "pdf_page_index": 12,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    }
+   ],
+   "grouping_basis": "問2-4 use the 記録 (underline, flowers A-D) and hypotheses 1-2; 問1 is printed between the 記録 and 問2 and cannot be cut out in one rectangle, so the whole 大問 is one unit."
+  },
+  {
+   "question": 5,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 13,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    },
+    {
+     "pdf_page_index": 14,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    }
+   ],
+   "grouping_basis": "All 問 use experiments 1-2, figure 2 and the table."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 16,
+     "crop": [
+      250,
+      330,
+      1610,
+      690
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion (DC/AC for (i)-(iii))."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 16,
+     "crop": [
+      250,
+      710,
+      1610,
+      1210
+     ]
+    }
+   ],
+   "grouping_basis": "Independent subquestion (photosynthesis energy conversion)."
+  },
+  {
+   "question": 6,
+   "subquestions": [
+    3,
+    4
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 15,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    },
+    {
+     "pdf_page_index": 16,
+     "crop": [
+      250,
+      1225,
+      1610,
+      1475
+     ]
+    },
+    {
+     "pdf_page_index": 17,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    },
+    {
+     "pdf_page_index": 18,
+     "crop": [
+      250,
+      320,
+      1610,
+      2246
+     ]
+    }
+   ],
+   "grouping_basis": "大問6 opening text (the facility's panels) and figures 1-5 are used by 問3; 問4 continues with 'this facility' data (figures 6-8, table) and refers to south-facing panels."
+  }
+ ]
+}

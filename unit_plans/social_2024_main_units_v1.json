@@ -1,0 +1,203 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2024/06/02_2024_syakai_monndai2.pdf",
+  "sha256": "c4fa9ccd68a8c1136da66b0aba979ada74aa5a4e34d94d185d7e04112c6e374d"
+ },
+ "plan_version": "1",
+ "year": 2024,
+ "subject": "social",
+ "exam_type": "main",
+ "dpi": 200,
+ "grouping_policy": "Rule: subquestions that use a shared map, table, figure, conversation or document stay in one unit; subquestions that use none of the shared material are separate units. When unsure (or when a page layout would force another subquestion into the crop), keep together. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  16
+ ],
+ "common_instructions": {
+  "pdf_page_index": 1,
+  "crop": [
+   250,
+   1490,
+   1610,
+   1840
+  ]
+ },
+ "corrections": [
+  {
+   "pdf_page_index": 0,
+   "crop": [
+    200,
+    700,
+    1460,
+    1460
+   ],
+   "questions": [
+    6
+   ],
+   "note": "Official problem correction (PDF page 1): page 9, question 6, line 1 「の間におこった」 -> 「のころにおこった」. The body page in this PDF is uncorrected."
+  }
+ ],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Each 問 answers one choice: ア〜エ, ア〜カ (combination tables, orderings), or ア〜コ (pairs of statements a〜e). No 二つ選べ question. Common instruction item 8 (multiple answers, one choice per answer row) included as common_instructions.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 2
+    },
+    {
+     "pdf_page_index": 3
+    }
+   ],
+   "grouping_basis": "All subquestions refer to countries A-D on the shared map (図1)."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      250,
+      320,
+      1610,
+      1240
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own 表1; the 大問 lead sentence is a topic heading only."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 4,
+     "crop": [
+      250,
+      1242,
+      1610,
+      2240
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own prefecture maps (図) and choice table."
+  },
+  {
+   "question": 2,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 5
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own 表2, 表3 and 各道府県の状況."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6
+    }
+   ],
+   "grouping_basis": "Both subquestions use the three shared map excerpts A-C."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 7
+    }
+   ],
+   "grouping_basis": "Both subquestions use the shared 地図 (rivers A-F)."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    1,
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 8
+    },
+    {
+     "pdf_page_index": 9,
+     "crop": [
+      250,
+      320,
+      1610,
+      1005
+     ]
+    }
+   ],
+   "grouping_basis": "問1 uses 資料1 and 資料2; 問2 asks about the era of 資料1."
+  },
+  {
+   "question": 5,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 9,
+     "crop": [
+      250,
+      1010,
+      1610,
+      1740
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: the メモ about 国司 uses neither 資料1 nor 資料2."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 10
+    },
+    {
+     "pdf_page_index": 11
+    }
+   ],
+   "grouping_basis": "All subquestions use 資料1-3 (the correction applies to the lead sentence)."
+  },
+  {
+   "question": 7,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 12
+    },
+    {
+     "pdf_page_index": 13
+    }
+   ],
+   "grouping_basis": "All subquestions refer to underlined parts of, or the whole of, 資料1."
+  },
+  {
+   "question": 8,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 14
+    },
+    {
+     "pdf_page_index": 15
+    }
+   ],
+   "grouping_basis": "All subquestions refer to the shared symposium conversation (underlines and speakers A-C)."
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "problem_pdf": {
+  "url": "https://www.kosen-k.go.jp/wp/wp-content/uploads/2026/02/12_2026_syakai_mondai.pdf",
+  "sha256": "87322c987e379e422c01302c466870e538784ee60946143ac4ba75a0c2ac510b"
+ },
+ "plan_version": "1",
+ "year": 2026,
+ "subject": "social",
+ "exam_type": "makeup",
+ "dpi": 200,
+ "grouping_policy": "Rule: subquestions that use a shared map, table, figure, conversation or document stay in one unit; subquestions that use none of the shared material are separate units. When unsure (or when a page layout would force another subquestion into the crop), keep together. Groups defined from the problem pages only, without answer-key content.",
+ "excluded_pdf_page_indices": [
+  0,
+  15
+ ],
+ "common_instructions": null,
+ "corrections": [],
+ "notices_excluded": [],
+ "answer_format": "Mark sheet. Each 問 answers one choice: ア〜エ or ア〜カ (combination tables, orderings). No 二つ選べ question; the cover instructions have no item 8, so common_instructions is null.",
+ "units": [
+  {
+   "question": 1,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 1
+    },
+    {
+     "pdf_page_index": 2
+    }
+   ],
+   "grouping_basis": "All subquestions refer to countries A-D on 図1."
+  },
+  {
+   "question": 2,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 3
+    },
+    {
+     "pdf_page_index": 4
+    }
+   ],
+   "grouping_basis": "All subquestions refer to prefectures A-D on 図1."
+  },
+  {
+   "question": 3,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 5
+    }
+   ],
+   "grouping_basis": "図3 is an enlargement of part of 図1; figures are interleaved in one column."
+  },
+  {
+   "question": 4,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 6
+    }
+   ],
+   "grouping_basis": "Both subquestions use the shared 資料."
+  },
+  {
+   "question": 5,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 7
+    },
+    {
+     "pdf_page_index": 8
+    }
+   ],
+   "grouping_basis": "All subquestions use 史料1-3 and 説明文 blanks."
+  },
+  {
+   "question": 6,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 9
+    },
+    {
+     "pdf_page_index": 10
+    }
+   ],
+   "grouping_basis": "問2-4 use the shared 図; 問1 is layout-bound between 図 and 問2 and topically tied (kept together)."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    1
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      150,
+      200,
+      1505,
+      1025
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: electoral-system choice table only."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    2
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 11,
+     "crop": [
+      150,
+      1030,
+      1505,
+      2180
+     ]
+    }
+   ],
+   "grouping_basis": "Independent: uses only its own 資料 and 説明文."
+  },
+  {
+   "question": 7,
+   "subquestions": [
+    3
+   ],
+   "parts": [
+    {
+     "pdf_page_index": 12
+    }
+   ],
+   "grouping_basis": "Independent: uses only 表1 and 表2."
+  },
+  {
+   "question": 8,
+   "subquestions": "all",
+   "parts": [
+    {
+     "pdf_page_index": 13
+    },
+    {
+     "pdf_page_index": 14
+    }
+   ],
+   "grouping_basis": "All subquestions refer to blanks/underlines in the shared passage."
+  }
+ ]
+}
