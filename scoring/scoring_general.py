@@ -18,7 +18,7 @@ from dataclasses import dataclass
 
 from .scoring import _HOMOGLYPH, _LONE_HOMOGLYPH, _MATH_HEADING, _NOT_WHOLE, Parsed
 
-SCORING_VERSION = "g1.9"
+SCORING_VERSION = "g2.0"
 
 # A label is "問3", "(3)", "3" or "3." optionally followed by a sub-item
 # ("(1)", or a bare number / circled number before "=") and a katakana box.
@@ -48,7 +48,9 @@ _CIRCLED_VALUE = re.compile(r"\(\s*(\d+)\s*\)")
 _FRACTION = re.compile(r"\d\s*[./⁄÷]\s*\d")
 # g1.9: _NOT_WHOLE (shared with the math scoring v1.4) rejects a number directly
 # followed by a fraction sign or an explicit alternative ("28 / 9", "28⁄9",
-# "28 または 29").
+# "28 または 29"); g2.0 (math v1.5) also an expression ("28+1"). g2.0: a number
+# glued to a letter ("28e2") is not read as its digits either.
+_GLUED = re.compile(r"[A-Za-z]")
 
 
 @dataclass
@@ -157,7 +159,7 @@ def parse_general(answer: str) -> Parsed:
     # g1.4: some units hold two parts (A and B) that both number from 問1. A part
     # is taken from an explicit "A問1"/"B問1", or, in the final list, from the
     # numbering restarting at 問1. Labels then carry the part ("A1", "B2(1)").
-    entries: list[tuple[int, str, str]] = []
+    entries: list[tuple[int, str, str | None]] = []
     part, seen, explicit = 0, set(), False
     for part_name, base, box, value in matches:
         if part_name:
@@ -168,28 +170,53 @@ def parse_general(answer: str) -> Parsed:
                 part, seen = part + 1, set()
             seen.add(base)
             this_part = part
-        for label, one in _pairs(base, box, value):
+        pairs = _pairs(base, box, value)
+        if pairs is None:
+            # g2.0: written, but with a value that cannot be read.
+            entries.extend((this_part, label, None) for label in _boxes(base, box))
+            continue
+        for label, one in pairs:
             entries.append((this_part, label, one))
     prefixed = explicit or part > 0
+    invalid = set()
     for this_part, label, one in entries:
         if prefixed and this_part < 2:
             label = "AB"[this_part] + label
+        if one is None:
+            invalid.add(label)
+            continue
         previous = parsed.values.get(label)
         if strict_region and previous is not None and previous != one:
             parsed.ambiguous.add(label)
         parsed.values[label] = one
+    # g2.0: a label also written with an unreadable value in the final list is not
+    # credited from its readable value alone.
+    if strict_region:
+        parsed.ambiguous |= invalid & set(parsed.values)
     return parsed
 
 
-def _pairs(base: str, box: str | None, value: str) -> list[tuple[str, str]]:
+def _boxes(base: str, box: str | None) -> list[str]:
+    if box and len(box) > 1:
+        return [base + b for b in box] + [base + box]
+    return [base + (box or "")]
+
+
+def _pairs(base: str, box: str | None, value: str) -> list[tuple[str, str]] | None:
+    """Readable pairs; None when the value is written but cannot be read (g2.0)."""
     value = value.strip()
-    # g1.8: decimals and fractions are not read as their integer part.
+    # g1.8: decimals and fractions are not read as their integer part. g2.0: the
+    # label counts as written-but-unreadable only when the value itself starts
+    # with the number ("29/3"); a fraction in a comment or in prose that happens
+    # to start a line ("エ（0.5 倍なので）", "1/R ratio …") is dropped as before.
     if _FRACTION.search(value):
-        return []
+        return None if _NUMBER.match(value) else []
     if box:
         number = _NUMBER.match(value)
-        if not number or _NOT_WHOLE.match(value, number.end()):
+        if not number:
             return []
+        if _NOT_WHOLE.match(value, number.end()) or _GLUED.match(value, number.end()):
+            return None
         digits = number.group(0)
         if len(box) > 1 and len(digits) == len(box):
             return [(base + b, d) for b, d in zip(box, digits)]
@@ -201,7 +228,7 @@ def _pairs(base: str, box: str | None, value: str) -> list[tuple[str, str]]:
         choices = [c.upper() for c in _LATIN.findall(value)]
     if not choices and _NUMBER.match(value):
         if any(_NOT_WHOLE.match(value, m.end()) for m in _NUMBER.finditer(value)):
-            return []
+            return None
         choices = _NUMBER.findall(value)
     if not choices and _CIRCLED_VALUE.match(value):
         choices = _CIRCLED_VALUE.findall(value)

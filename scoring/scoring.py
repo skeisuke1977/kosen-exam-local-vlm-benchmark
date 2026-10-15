@@ -17,7 +17,7 @@ import re
 import unicodedata
 from dataclasses import dataclass, field
 
-SCORING_VERSION = "1.4"
+SCORING_VERSION = "1.5"
 
 _ROMAJI = {
     "a": "ア", "i": "イ", "u": "ウ", "e": "エ", "o": "オ",
@@ -101,47 +101,80 @@ def _normalize(text: str) -> str:
 
 # v1.4: a value directly followed by a fraction sign or an explicit alternative
 # ("3 / 4", "3⁄4", "3 または 4") is not read as its first number.
+# v1.5: the alternative may also be a letter ("c または d"), and a value followed on
+# the same line by an arithmetic sign and an operand ("9+1", "9 - 1", "9×2") is an
+# expression, not its first number.
 _NOT_WHOLE = re.compile(
-    r"\s*(?:[./⁄÷]|または|もしくは|あるいは|or\b)\s*-?\d", re.IGNORECASE
+    r"\s*[./⁄÷]\s*-?\d"
+    r"|\s*(?:または|もしくは|あるいは|or\b)\s*-?[\dA-Za-z]"
+    r"|[ \t]*[+\-×*^][ \t]*[\dA-Za-z]",
+    re.IGNORECASE,
+)
+# v1.5: a label stated with "=" or ":" and a value that starts like a number or a
+# letter but is not a whole value ("ア = 8/9", "アイ = 28e2"). Such a label is
+# remembered as written-but-unreadable instead of being dropped silently.
+_LOOKS_LIKE_VALUE = r"(?=-?\d|[A-Za-z](?![A-Za-z]))"
+_STATED = re.compile(
+    rf"(?<!{_NOT_KATA})(?P<kana>{_KATA}{{1,4}})(?!{_NOT_KATA})\s*[=:]\s*"
+    rf"{_LOOKS_LIKE_VALUE}"
+    rf"|(?:^|(?<=[,、;]))[ \t]*(?:\d+[ \t]+)?(?:[-・•][ \t]+)?"
+    rf"(?P<roma>{_ROMAJI_ALT})(?![A-Za-z])[ \t]*[=:][ \t]*{_LOOKS_LIKE_VALUE}",
+    re.IGNORECASE | re.MULTILINE,
 )
 
 
-def _pairs(region: str) -> list[tuple[str, str]]:
+def _label(match: re.Match) -> str:
+    if match.group("kana"):
+        return match.group("kana")
+    return _ROMAJI[match.group("roma").lower()]
+
+
+def _pairs(region: str) -> tuple[list[tuple[str, str]], set[str]]:
+    """Readable (label, value) pairs, and the labels written with a value that
+    cannot be read (each box of a joined label)."""
     found = []
+    invalid: set[str] = set()
+    read_at = set()
     text = _normalize(region)
     for match in _PAIR.finditer(text):
+        label = _label(match)
         if _NOT_WHOLE.match(text, match.end()):
+            invalid.update(label)
+            read_at.add(match.start())
             continue
-        if match.group("kana"):
-            label, value = match.group("kana"), match.group("kv").lower()
-        else:
-            label = _ROMAJI[match.group("roma").lower()]
-            value = match.group("rv").lower()
+        read_at.add(match.start())
+        value = (match.group("kv") or match.group("rv")).lower()
         if len(label) > 1 and len(value) == len(label):
             found.extend(zip(label, value))
         else:
             found.append((label, value))
-    return found
+    for match in _STATED.finditer(text):
+        if match.start() not in read_at:
+            invalid.update(_label(match))
+    return found, invalid
 
 
 def parse_math(answer: str) -> Parsed:
     """Extract label/value pairs from the final message.
 
     With a heading, read after its last occurrence and treat conflicting values
-    for one label as ambiguous. Without a heading, or when nothing follows the
+    for one label as ambiguous; v1.5: so is a label also written there with a value
+    that cannot be read. Without a heading, or when no label is written after the
     heading, read the whole message and let the last statement win.
     """
     headings = list(_MATH_HEADING.finditer(answer))
     parsed = Parsed(heading_found=bool(headings))
-    pairs = _pairs(answer[headings[-1].end() :]) if headings else []
-    strict_region = bool(pairs)
-    if not pairs:
-        pairs = _pairs(answer)
+    pairs, invalid = _pairs(answer[headings[-1].end() :]) if headings else ([], set())
+    strict_region = bool(pairs or invalid)
+    if not strict_region:
+        pairs, _ = _pairs(answer)
     for label, value in pairs:
         previous = parsed.values.get(label)
         if strict_region and previous is not None and previous != value:
             parsed.ambiguous.add(label)
         parsed.values[label] = value
+    if strict_region:
+        parsed.ambiguous |= invalid & set(parsed.values)
     return parsed
 
 

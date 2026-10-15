@@ -1,4 +1,4 @@
 exam,model,prompt,trial,units,points,max_points,minutes,scoring_version
-2025_japanese_main,muse-glimmer-30b,ja-perq-1.0,1,21,79,100,47.97,g1.9
-2025_japanese_main,qwen/qwen3.8-27b,g1.0-dev,1,3,77,100,18.59,g1.9
-2025_japanese_main,qwen/qwen3.8-27b,ja-perq-1.0,1,21,68,100,74.75,g1.9
+2025_japanese_main,muse-glimmer-30b,ja-perq-1.0,1,21,79,100,47.97,g2.0
+2025_japanese_main,qwen/qwen3.8-27b,g1.0-dev,1,3,77,100,18.59,g2.0
+2025_japanese_main,qwen/qwen3.8-27b,ja-perq-1.0,1,21,68,100,74.75,g2.0
