@@ -59,6 +59,18 @@
    "completed": 174
   }
  },
+ "math|Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw": {
+  "trials": {
+   "1": 82.2,
+   "2": 75.8,
+   "3": 77.0
+  },
+  "mean": 78.33333333333333,
+  "minutes_per_exam": 2.2246333333333332,
+  "status": {
+   "completed": 174
+  }
+ },
  "english|qwen/qwen3.5-9b": {
   "trials": {
    "1": 67.68354430379746,
@@ -115,6 +127,18 @@
   },
   "mean": 97.69367088607595,
   "minutes_per_exam": 7.4305666666666665,
+  "status": {
+   "completed": 93
+  }
+ },
+ "english|Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw": {
+  "trials": {
+   "1": 91.28101265822785,
+   "2": 88.84303797468354,
+   "3": 90.84050632911392
+  },
+  "mean": 90.32151898734178,
+  "minutes_per_exam": 1.4261333333333333,
   "status": {
    "completed": 93
   }
@@ -180,6 +204,18 @@
    "empty_answer": 1
   }
  },
+ "social|Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw": {
+  "trials": {
+   "1": 80.8,
+   "2": 85.6,
+   "3": 85.6
+  },
+  "mean": 84.0,
+  "minutes_per_exam": 2.778433333333333,
+  "status": {
+   "completed": 171
+  }
+ },
  "japanese|openai/gpt-6.1-sol@cloud-reference": {
   "trials": {
    "1": 91.8
@@ -235,6 +271,18 @@
   },
   "mean": 60.266666666666666,
   "minutes_per_exam": 20.4172,
+  "status": {
+   "completed": 45
+  }
+ },
+ "japanese|Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw": {
+  "trials": {
+   "1": 23.4,
+   "2": 19.0,
+   "3": 19.6
+  },
+  "mean": 20.666666666666668,
+  "minutes_per_exam": 1.2621111111111112,
   "status": {
    "completed": 45
   }
@@ -300,6 +348,18 @@
   "status": {
    "completed": 284,
    "timeout": 13
+  }
+ },
+ "science|Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw": {
+  "trials": {
+   "1": 74.63298969072164,
+   "2": 78.25773195876289,
+   "3": 77.80824742268041
+  },
+  "mean": 76.89965635738831,
+  "minutes_per_exam": 4.125377777777778,
+  "status": {
+   "completed": 297
   }
  }
 }

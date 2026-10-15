@@ -1,4 +1,13 @@
 subject,exam,model,trial,question,subquestion,status,wall_seconds,output_tokens,math_points,max_points,strict_points,superseded,scoring_version,key_version
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,1,1,all,completed,26.11,2234,8,33,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,1,2,all,completed,37.68,3386,22,38,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,1,3,all,completed,25.5,2265,4,29,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,2,1,all,completed,23.9,2233,10,33,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,2,2,all,completed,24.93,2191,10,38,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,2,3,all,completed,25.83,2288,0,29,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,3,1,all,completed,22.31,2161,4,33,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,3,2,all,completed,23.59,2234,4,38,,False,g1.9,1
+japanese,2024_japanese_main,Qwen3.8-Flash-Next-MLX-Serve-iQ-MLX-3.3bpw,3,3,all,completed,26.93,2226,8,29,,False,g1.9,1
 japanese,2024_japanese_main,google/gemma-4-31b,1,1,all,completed,207.96,7988,9,33,,False,g1.9,1
 japanese,2024_japanese_main,google/gemma-4-31b,1,2,all,completed,337.32,12772,4,38,,False,g1.9,1
 japanese,2024_japanese_main,google/gemma-4-31b,1,3,all,completed,275.35,10405,8,29,,False,g1.9,1
